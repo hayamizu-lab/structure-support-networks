@@ -13,7 +13,7 @@ Each line is of the format
 Input file, |A_N|, |B_N|, |C_N|
 ```
 where
-- `Input file` is the name of the txt file (list of the edges) in `data/Counting-Experiment` used for the run.
+- `Input file` is the name of the txt file (list of the edges) in [`data/Counting-Experiment`](data/Counting-Experiment) used for the run.
 - `|A_N|` is the number of all support networks of the input networks.
 - `|B_N|` is the number of minimal support networks of the input networks.
 - `|C_N|` is the number of minimum support networks of the input networks.
