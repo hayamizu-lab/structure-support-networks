@@ -54,9 +54,8 @@ When you count the numbers of all/minimal/minimum spanning networks in the input
 ```terminal
 python code/CountSupportNetworks.py
 ```
-and enter 'sample-input' (without the extension). Then, you will get the results as follows:
+and enter `sample-input` (without the extension `txt`). Then, you will get the results as follows:
 ```
-Input: sample-input
 The number |A_N| of all support networks: 702
 The number |B_N| of minimal support networks: 32
 The number |C_N| of minimum support networks: 8
@@ -75,9 +74,8 @@ To run the program of LM-Exact, use:
 ```terminal
 python code/LM-Exact.py
 ```
-and enter 'sample-input' (without the extension). Then, you will get the results as follows:
+and enter `sample-input` (without the extension `txt`). Then, you will get the results as follows:
 ```
-Input: sample-input
 Minimum level:1
 Runtime (sec):0.004078125115483999
 ```
@@ -90,10 +88,9 @@ To run the program of of LM-Heuristic, use:
 ```
 python code/LM-Heuristic.py
 ```
-and enter 'sample-input' (without the extension). Then, you will get the results as follows:
+and enter `sample-input` (without the extension `txt`). Then, you will get the results as follows:
 
 ```
-Input: sample-input
 Minimum level:2
 Runtime (sec):0.0012555411085486412
 ```
