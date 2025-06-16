@@ -65,6 +65,12 @@ The number |C_N| of minimum support networks: 8
 
 
 #### LM-Exact
+Make sure that you have installed `graphviz` package. For Mac users, you may need to install the Graphviz system as follows. 
+```terminal
+brew install graphviz
+pip install graphviz
+```
+
 To run the program of LM-Exact, use:
 ```terminal
 python code/LM-Exact.py
