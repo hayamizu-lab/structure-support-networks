@@ -84,6 +84,8 @@ Runtime (sec):0.004078125115483999
 Here, this `Runtime (sec)` is the wall-clock time measured by `time.perf_counter()`.
 The program will also output the visualization of the support network with minimum level in PDF format (see [`sample-input-exact.pdf`](sample-input-exact.pdf)). This PDF highlights the support network in the input network with black solid lines.
 #### LM-Heuristic
+Make sure that you have installed `graphviz` package (see the above instruction). 
+
 To run the program of of LM-Heuristic, use:
 ```
 python code/LM-Heuristic.py
