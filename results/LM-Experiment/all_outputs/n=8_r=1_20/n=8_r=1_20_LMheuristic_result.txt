@@ -1,0 +1,19 @@
+Minimum level: 0
+Runtime (sec): 0.00013520801439881325
+Support network with minimum level
+2 6
+2 16
+16 5
+15 1
+1 3
+1 4
+3 14
+3 13
+0 2
+0 15
+5 7
+5 8
+8 10
+8 9
+10 12
+10 11
