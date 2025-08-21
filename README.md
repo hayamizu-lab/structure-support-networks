@@ -5,7 +5,7 @@
 This repository contains the algorithms for solving Level Minimization problem (Problem 2 in our paper), which finding the minimum level support network and calculating this level for a given phylogenetic network. As preparation for solving this problem, we have implemented three algorithms for measuring the cardinalities of the three sets of support networks (i.e., all, minimal, and minimum support networks), which should be searched exhaustively. All of these algorithms run in linear time. We conducted experiments using this algorithm to compare the cardinalities of these sets. Furthermore, we implemented an exponential-time algorithm (Algorithm 1 in our paper) to correctly solve this problem and an exponential-time heuristic (Algorithm 2 in our paper) to approximate the solution. We conducted experiments to evaluate the accuracy and runtime of these two algorithms. This repository also includes the datasets used in each experiment, as well as the code for generating these datasets.
 
 This repository serves as the supporting material for the paper:
-> Takatora Suzuki and Momoko Hayamizu. **Which Phylogenetic Networks are Level-k Networks with Additional Arcs? Structure and Algorithms**. Accepted for WABI 2025. 
+> Takatora Suzuki and Momoko Hayamizu. **Which Phylogenetic Networks Are Level-k Networks with Additional Arcs? Structure and Algorithms.** In 25th International Conference on Algorithms for Bioinformatics (WABI 2025). Leibniz International Proceedings in Informatics (LIPIcs), Volume 344, pp. 19:1-19:19, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2025) https://doi.org/10.4230/LIPIcs.WABI.2025.19
 
 ## Repository Structure
 

@@ -25,7 +25,7 @@ This directory contains the results of all runs and the summaries of the experim
 ### summary
 This directory contains the summaries of the outputs of the experiments in Section 6.3 in our paper.
 
-Each CSV file, for example, `exact_vs_heuristic_r=5_summary.csv`, meaning that this file compares the outputs of running `code/LM-Exact.py` and `code/LM-Heuristic.py` with the 100 samples in `data/LM-Experiment/n=8_r=5` as the inputs.
+Each CSV file, for example, `exact_vs_heuristic_r=5_summary.csv`, meaning that this file compares the outputs of running `code/LM-Exact.py` and `code/LM-Heuristic.py` with the 25 samples in `data/LM-Experiment/n=8_r=5` as the inputs.
 
 Each line is of the format
 ```
@@ -41,6 +41,6 @@ where
 ### all_output
 This directory contains all the outputs of running `code/LM-Exact.py` and `code/LM-Heuristic.py` for the sample networks in `data/LM-Experiment`.
 
-Each subdirectory is named, for example, `n=8_r=5_15`, meaning that the subdirectory contains the output(s) of `code/LM-Exact.py` and `code/LM-Heuristic.py`(only from `r=1` to `r=33`) with the input `data/LM-Experiment/n=8_r=5/n=8_r=5_15.txt`.
+Each subdirectory is named, for example, `n=8_r=5_15`, meaning that the subdirectory contains the output(s) of `code/LM-Exact.py` (only from `r=1` to `r=36`) and `code/LM-Heuristic.py` with the input `data/LM-Experiment/n=8_r=5/n=8_r=5_15.txt`.
 
 Each file is named, for example, `n=8_r=5_15_LMheuristic_result.txt`, meaning that this file is the output of `code/LM-Heuristic.py` with the input `data/LM-Experiment/n=8_r=5/n=8_r=5_15.txt`. 
